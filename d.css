@@ -1,5 +1,5 @@
 
-  
+ 
   body {
     margin: 0;
     padding: 0;
@@ -9,7 +9,9 @@
     object-fit: cover;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: fixed; 
+    width: 100%;
+    height: auto;
   }
   
   #count {
