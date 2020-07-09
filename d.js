@@ -41,7 +41,7 @@ mike.addEventListener("click", () => {
 
 function searchmovies(searchtext) {
   console.log(searchtext);
-  let api = `http://www.omdbapi.com/?s=${searchtext}&apikey=f056e2f7`;
+  let api = `https://www.omdbapi.com/?s=${searchtext}&apikey=f056e2f7`;
 
   window
     .fetch(api)
@@ -65,9 +65,9 @@ function searchmovies(searchtext) {
             <h3>${mov.Title}</h3>
             <p>${mov.Year}</p>
            <div> 
-           <a href="http://www.omdbapi.com/?i=${mov.imdbID}&apikey=f056e2f7">More Info</a>
+           <a href="https://www.omdbapi.com/?i=${mov.imdbID}&apikey=f056e2f7">More Info</a>
            <br/>
-           <a href="http://www.imdb.com/title/${mov.imdbID}">others</a>
+           <a href="https://www.imdb.com/title/${mov.imdbID}">others</a>
            </div>
             </div>
             </div>
